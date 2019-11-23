@@ -8,6 +8,8 @@ INSTALL:
 pip install RavenRPC
 ```
 
+**Then run ravend** (This is very important!!!!!!!)
+
 Examples:
 
 ```python
