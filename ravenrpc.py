@@ -29,6 +29,6 @@ class Ravencoin:
             response = requests.post(url, json.dumps(data), headers={'Content-Type': 'application/json'}, auth=auth)
             if 'error' in response and response['error'] != None:
                 raise Exception(response['error'])
-            return response.text
+            return json.loads(response.text)
 
         return ret
