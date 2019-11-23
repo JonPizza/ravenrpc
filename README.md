@@ -5,7 +5,7 @@ Crazy simple Ravencoin RPC library
 INSTALL:
 
 ```
-pip install RavenRPC
+pip install ravenrpc
 ```
 
 **Then run ravend** (This is very important!!!!!!!)
