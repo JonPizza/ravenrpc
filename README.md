@@ -1,6 +1,8 @@
 # RavenRPC
 
-Crazy simple Ravencoin RPC library
+Crazy simple Ravencoin RPC library, designed to work with all versions of Ravencoin.
+
+*"I have seen many libraries, this one... is pretty average" - Joe*
 
 INSTALL:
 
