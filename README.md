@@ -10,7 +10,18 @@ INSTALL:
 pip install ravenrpc
 ```
 
-**Then run ravend** (This is very important!!!!!!!)
+## Setting Up Ravend (Linux)
+
+go to your `.raven` folder, add a `raven.conf` file if there is not one already, in that file add:
+
+```
+rpcuser=username
+rpcpassword=password
+```
+
+**Make sure you use a secure username and password!**
+
+Then run `./ravend` in the directory that it is located!
 
 Examples:
 
