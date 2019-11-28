@@ -42,3 +42,17 @@ rvn.<METHOD>(<param1>, <param2>, ...)
 **Note**: If the username and password are incorrect, then a empty string will be returned. 
 
 Please report any bugs by filling out an issue!
+
+## Use it with other cryptos too!!
+
+Just set the port when accessing:
+
+```
+btc = Ravencoin('username', 'password', port=8332)
+```
+
+And if you want to use a different host:
+
+```
+btc = Ravencoin('username', 'password', host='host.com', port=8333)
+```
