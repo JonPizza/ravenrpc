@@ -47,12 +47,12 @@ Please report any bugs by filling out an issue!
 
 Just set the port when accessing:
 
-```
+```python
 btc = Ravencoin('username', 'password', port=8332)
 ```
 
 And if you want to use a different host:
 
-```
+```python
 btc = Ravencoin('username', 'password', host='host.com', port=8333)
 ```
